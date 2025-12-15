@@ -1,0 +1,19 @@
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build artifacts
+target/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven
+dependency-reduced-pom.xml
+
+# Logs
+*.log
