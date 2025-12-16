@@ -1,8 +1,11 @@
 package com.designpatterns.structural.bridge;
 
 /**
- * Bridge Pattern - Separates abstraction from implementation.
- * Simple example: Different shapes that can be drawn with different renderers.
+ * Bridge Pattern - Separates abstraction from implementation. Bridge is a structural design pattern that
+ * lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction
+ * and implementation—which can be developed independently of each other.
+ * Simple example: Different shapes that can be drawn with different renderers. or TV (Implementation) and a remote (abstraction).
+ * That composition (Remote has-a TV) is the Bridge
  */
 public class BridgeDemo {
     
